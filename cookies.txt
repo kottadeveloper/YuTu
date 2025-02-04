@@ -1,0 +1,7 @@
+ydl_opts = {
+    'outtmpl': f'{DOWNLOAD_FOLDER}/%(title)s.%(ext)s',
+    'format': 'mp4',
+    'nocheckcertificate': True,
+    'noplaylist': True,
+    'cookiefile': 'cookies.txt'  # Добавляем файл cookies
+}
